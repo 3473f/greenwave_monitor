@@ -201,6 +201,9 @@ bool GreenwaveMonitor::has_header_from_type(const std::string & type_name)
     {"sensor_msgs/msg/Range", true},
     {"sensor_msgs/msg/PointCloud", true},
 
+    // stereo_msgs
+    {"stereo_msgs/msg/DisparityImage, true"},
+
     // geometry_msgs
     {"geometry_msgs/msg/PoseStamped", true},
     {"geometry_msgs/msg/TwistStamped", true},
@@ -210,6 +213,7 @@ bool GreenwaveMonitor::has_header_from_type(const std::string & type_name)
     {"geometry_msgs/msg/QuaternionStamped", true},
     {"geometry_msgs/msg/TransformStamped", true},
     {"geometry_msgs/msg/WrenchStamped", true},
+    {"geometry_msgs/msg/PoseWithCovarianceStamped", true},
 
     // nav_msgs
     {"nav_msgs/msg/OccupancyGrid", true},
